@@ -33,7 +33,7 @@ int main(void) {
     exit(0);
 }
 
-static void sig_int (int) {
+static void sig_int (int signo) {
     pr_mask("\nin sig_int: ");
 }
 
